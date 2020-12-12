@@ -23,3 +23,5 @@ Implementation plan:
   - [Evaluatex](https://arthanzel.github.io/evaluatex/)
 - [ ] place output answer back into document
 - [ ] choice for output format
+
+API Keys (AppID)

@@ -1,0 +1,26 @@
+{
+  "name": "docs-equations-calculator",
+  "version": "1.0.0",
+  "description": "Work in Progress.",
+  "main": "src/index.js",
+  "scripts": {
+    "gas": "webpack --config webpack.gas.js",
+    "deploy": "npm run gas && cd dist && clasp push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jared-hughes/docs-equations-calculator.git"
+  },
+  "author": "Jared Hughes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jared-hughes/docs-equations-calculator/issues"
+  },
+  "homepage": "https://github.com/jared-hughes/docs-equations-calculator#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^7.0.0",
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0"
+  }
+}
